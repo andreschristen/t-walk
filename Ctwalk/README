@@ -1,0 +1,21 @@
+
+/*
+   This code is derived from the C++ version of t-Walk "cpptwalk-beta-1.0"
+   Feb 2008 version, kindly supplied by J. Andres Christen.
+
+   Apart from converting this to a stand-alone C program I can claim no
+   other credit.  I freely admit that C++ is a better language for this
+   code because of the ability to derive the application dependent
+   Objective Function class from an abstract base class.
+
+   The t-Walk code is an implementation of some original and clever ideas
+   for a universal Metropolis-Hastings MCMC sampler in the paper "A General
+   Purpose Sampling Algorithm for Continuous Distributions (the t-walk)" by
+   J. Andres Christen and Colin Fox, published in Bayesian Analysis (2010)
+   Vol 5, Number 2, pp. 263-282.  The paper is well worth a read!
+
+   Compile with cc Ctwalk.c -o Ctwalk -lm
+
+   Tony Begg <tony.begg@dataventures.com>
+*/
+

@@ -1,0 +1,19 @@
+# /bin/sh
+
+### Script para actualizar la version del twalk
+### PRIMERO, actualiza la version en setup.py 
+
+
+
+### Crea la distribucion
+python setup.py sdist
+
+
+### Instala la distribucion localmente 
+sudo python setup.py install
+
+### Copia el nuevo tar.gz de dist a html_public
+### Actualiza la pagina del twalk index.html
+### Actualizala en el servidor
+
+

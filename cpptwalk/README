@@ -1,0 +1,14 @@
+
+
+This is the C++ implementation of the twalk.
+
+The gsl numeric library IS NO LONGER NEEDED, see makefile.
+
+
+Please start reading the file example.h for a workout example.
+
+The version of this download is written in the file VERSION .
+
+Cheers,
+Andres Christen.
+

@@ -1,0 +1,37 @@
+
+
+The t-walk software
+J. Andrés Christen and Colin Fox
+CIMAT, Mexico and U. of Otago, New Zealand.
+
+
+The t-walk is a "A self-adjusting multi-scale MCMC algorithm" 
+that samples from arbitrary multidimensional
+objective functions (posteriors).
+
+See: http://www.cimat.mx/~jac/twalk/
+
+This is the Python implementation, you would need the scipy and numpy
+packeges installed and optionally matplotlib.pylab to do some histograms.
+
+Install the module as any other python module:
+
+
+% sudo python setup.py install
+
+(is a pure Python module and therefore is platform independent). 
+
+
+Go directly to pytwalktutorial.py for some examples, you may download it from
+http://www.cimat.mx/~jac/twalk/pytwalktutorial.py .
+
+The current version number may be found in the file VERSION.  
+
+
+
+email me with comments at: jac at cimat dot mx .
+
+Cheers,
+J Andrés Christen.
+ 
+

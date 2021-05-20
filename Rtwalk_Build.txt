@@ -1,0 +1,24 @@
+
+
+
+se hace:
+
+$ PATH=$PATH:/usr/texbin  #porque necesita pdflatex
+
+$ R CMD check Rtwalk
+
+$ R CMD build Rtwalk
+
+$ R CMD INSTALL Rtwalk_x_x_x.tar.gz #para instalarlo localmente.
+
+
+
+
+Manda el .tar.gz a la pagina:
+
+http://win-builder.r-project.org/upload.aspx
+
+
+para generar el binario de Windows.
+
+

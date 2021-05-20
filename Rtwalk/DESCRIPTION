@@ -1,0 +1,13 @@
+Package: Rtwalk
+Version: 1.9.0
+Date: 2020-08-20
+Title: The R Implementation of the 't-walk' MCMC Algorithm
+Author: J Andres Christen
+Maintainer: J Andres Christen <jac@cimat.mx>
+Depends: R (>= 2.8.0)
+Description: The 't-walk' is a general-purpose MCMC sampler for
+      arbitrary continuous distributions that requires no tuning.
+License: GPL-3
+URL: http://www.cimat.mx/~jac/twalk/
+NeedsCompilation: no
+Packaged: 2015-08-05 05:12:28 UTC; Alireza Mahani
